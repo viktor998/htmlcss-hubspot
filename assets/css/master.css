@@ -12,13 +12,17 @@
 }
 
 .container{
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
 /* COL- */
 [class^='col-']{
     float: left;
+}
+
+.col-33{
+    width: calc(100% /3);
 }
 
 .col-35{
@@ -44,7 +48,7 @@
 
 
 .lang-select{
-    width: 17%;
+    width: 20%;
     vertical-align: middle;
     border-right: 1px solid black;
     display: inline-block;
@@ -72,11 +76,13 @@ ul.btn a{
 
 /* MAIN */
 
+
+
 .jumbo-img{
     background: url(../img/jumbotron.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: 0 -120px;
+    background-position: 0 -50px;
 }
 
 .class-txt{
@@ -160,6 +166,58 @@ ul.btn a{
     border-radius: 50%;
 }
 
+.col-33 img{
+    height: 100px;
+    position: relative;
+    top: 70px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.col-33.bg-white{
+    width: 28%;
+}
+
+.col-33.center{
+    margin: 0 85px;    
+}
+
+.col-33 .resized{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.txt-resized{
+    margin: 0 auto;
+    width: 90%;
+}
+
+.popular-feature2 li{
+    font-size: 12px;
+    margin-left: 20px;
+    list-style: none;
+}
+
+
+.popular-feature2 ul li:before{
+    margin-right: 10px;
+    content: '\2713';
+    font-weight: bolder;
+    font-size: 10px;
+    color: white;
+    padding: 1px 3px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+.btn.btn-complete.repos{
+    position: relative;
+    top: 15px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 
 /* MAIN */
 
@@ -233,15 +291,15 @@ ul.btn a{
 
 .bg-white{
     background-color: rgb(255, 255, 255);
-    width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4)
 }
 
+
 /* .fixed{
     position: fixed;
-    top: 0;
-    left: 0;
+    z-index: 1;
+    left: 130px;
 } */
 
 /* UTILITY */
