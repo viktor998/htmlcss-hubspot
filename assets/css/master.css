@@ -21,8 +21,16 @@
     float: left;
 }
 
+.col-35{
+    width: 35%;
+}
+
 .col-50{
     width: 50%;
+}
+
+.col-65{
+    width: 65%;
 }
 
 .col-100{
@@ -53,6 +61,10 @@ ul.btn a{
     color: black;    
 }
 
+.fr ul.btn li{
+    display: inline-block;
+}
+
 
 
 /* FIRST-NAV */
@@ -64,7 +76,7 @@ ul.btn a{
     background: url(../img/jumbotron.png);
     background-repeat: no-repeat;
     background-size: cover;
-
+    background-position: 0 -120px;
 }
 
 .class-txt{
@@ -75,6 +87,80 @@ ul.btn a{
 .jumbo-txt h1{
     font-size: 48px;
 }
+
+.bg-cyan{
+    background-color: aquamarine;
+    height: 60px;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.cube{
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cube-img img{
+    width: 30%;
+    position: relative;
+    left: 50%;
+    top: 100px;
+    transform: translate(-50%,-50%);
+}
+
+.book{
+    padding: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.book ul{
+    position: relative;
+    top: 10px;
+}
+
+.book-img img{
+    height: 120px;
+
+}
+
+.book-txt{
+    width: 59%;
+    padding-top: 100px;
+
+}
+
+.book-txt h3{
+    margin: auto;
+}
+
+
+.feature h4, .feature  hr{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.feature  hr{
+    width: 50%;
+    line-height: 18px;
+}
+
+.popular-feature ul li{
+    display: inline-block;
+    padding-right: 2em;
+}
+
+.popular-feature ul li:before{
+    margin-right: 10px;
+    content: '\2713';
+    font-weight: bolder;
+    color: white;
+    padding: 2px 4px;
+    background-color: orangered;
+    border-radius: 50%;
+}
+
+
 /* MAIN */
 
 
@@ -139,6 +225,17 @@ ul.btn a{
 
 .lh-1{
     line-height: 40px;
+}
+
+.txt-align{
+    text-align: center;
+}
+
+.bg-white{
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4)
 }
 
 /* .fixed{
