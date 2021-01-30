@@ -25,9 +25,14 @@
     width: calc(100% /3);
 }
 
+.col-30{
+    width: 30%;
+}
+
 .col-35{
     width: 35%;
 }
+
 
 .col-50{
     width: 50%;
@@ -35,6 +40,9 @@
 
 .col-65{
     width: 65%;
+}
+.col-70{
+    width: 70%;
 }
 
 .col-100{
@@ -183,7 +191,7 @@ ul.btn a{
 }
 
 .col-33.center{
-    margin: 0 85px;    
+    margin: 0 86px;    
 }
 
 .col-33 .resized{
@@ -217,9 +225,14 @@ ul.btn a{
 
 .btn.btn-complete.repos{
     position: relative;
+    border: none;
     top: 15px;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+.btn.btn-complete.repos a{
+    text-decoration: none;
 }
 
 .green-resize{
@@ -278,6 +291,52 @@ ul.btn a{
     padding-top: 10px;
 }
 
+.p-loghi{
+    width: 60%;
+    text-align: center;
+}
+
+.p-loghi h2{
+    font-size: 34px;
+    font-weight: bolder;
+}
+
+.p-loghi p{
+    margin-left: 30px;
+    text-align: left;
+    padding-top: 20px;
+    font-size: 14px;
+}
+
+.img-loghi img{
+    margin: 0 10px;
+}
+
+.loghi-col-one-img img{
+    height: 24px;
+}
+
+.loghi-col-two-img img{
+    height: 28px;
+    width: auto;
+    margin: 0 30px;
+}
+
+.img-profile-txt{
+    width: 65%;
+}
+
+.img-profile-txt .smaller{
+    font-size: 11px;
+}
+
+.img-profile img{
+    height: 320px;
+    position: relative;
+    top: -35px;
+}
+
+
 
 /* MAIN */
 
@@ -286,6 +345,10 @@ ul.btn a{
 /* UTILITY */
 .fr{
     float: right;
+}
+
+.fl{
+    float: left;
 }
 
 .pt-1{
@@ -359,15 +422,33 @@ ul.btn a{
     background-color: rgb(17, 145, 139);
 }
 
+.margin-calc{
+    margin-top: 100px;
+}
+
+.pl-2{
+    padding-left: 130px;
+}
+
+.pr-2{
+    padding-right: 130px;
+}
 
 
 
 
 
-/* .fixed{
+
+.fixed{
     position: fixed;
     z-index: 1;
-    left: 130px;
-} */
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 0;
+    background-color: white;
+    border-bottom: 1px solid black;
+    
+}
 
 /* UTILITY */
