@@ -21,12 +21,17 @@
     float: left;
 }
 
-.col-33{
-    width: calc(100% /3);
+.col-25{
+    width: calc(100% /4);
 }
+
 
 .col-30{
     width: 30%;
+}
+
+.col-33{
+    width: calc(100% /3);
 }
 
 .col-35{
@@ -341,6 +346,77 @@ ul.btn a{
 /* MAIN */
 
 
+/* FOOTER */
+
+footer{
+    background-color: rgb(35, 35, 65);
+}
+
+footer ul li{
+    list-style: none;
+    
+}
+
+footer ul li a{
+    font-size: 14px;
+}
+
+footer ul li a, footer h4{
+    text-decoration: none;
+    color: white;
+}
+
+button.change-color{
+    background-color: white;
+    border: transparent;
+}
+
+button.change-color a.color-txt{
+    color:  rgb(35, 35, 65);
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.social-logos i{
+    margin-right: 17px;
+    font-size: 20px;
+    color: white;
+}
+
+.social-logos ul li{
+    display: inline-block;
+}
+
+ul.in-line li{
+    display: inline-block;
+    margin: 0 10px;
+
+}
+
+ul.in-line.large-ul{
+    padding-bottom: 13px;
+    border-bottom: 1px solid white;
+}
+
+ul.in-line{
+    text-align: center;
+    
+}
+
+.copyright img{
+    filter:  brightness(1000%);
+   
+    
+}
+.copyright p{
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+/* FOOTER */
+
+
 
 /* UTILITY */
 .fr{
@@ -415,7 +491,7 @@ ul.btn a{
 .bg-white{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4)
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
 
 .bg-greenish{
