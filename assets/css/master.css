@@ -108,14 +108,14 @@ ul.btn a{
 }
 
 .bg-cyan{
-    background-color: aquamarine;
+    background-color: rgb(175, 235, 228);
     height: 60px;
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
 }
 
 .cube{
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
 
@@ -175,9 +175,11 @@ ul.btn a{
     font-weight: bolder;
     color: white;
     padding: 2px 4px;
-    background-color: orangered;
+    background-color: rgb(254, 119, 90);
     border-radius: 50%;
 }
+
+
 
 .col-33 img{
     height: 100px;
@@ -196,7 +198,10 @@ ul.btn a{
 }
 
 .col-33.center{
-    margin: 0 86px;    
+    display: block;
+    position: relative;
+    left: calc((100% /3)/4);
+  
 }
 
 .col-33 .resized{
@@ -224,7 +229,7 @@ ul.btn a{
     font-size: 10px;
     color: white;
     padding: 1px 3px;
-    background-color: orangered;
+    background-color: rgb(254, 119, 90);
     border-radius: 50%;
 }
 
@@ -349,7 +354,7 @@ ul.btn a{
 /* FOOTER */
 
 footer{
-    background-color: rgb(35, 35, 65);
+    background-color: rgb(50, 73, 91);
 }
 
 footer ul li{
@@ -457,7 +462,7 @@ ul.in-line{
 .bold
 
 .btn.btn-only-border a{
-    color: orangered;
+    color: rgb(254, 119, 90);
 }
 
 .btn.btn-complete a{
@@ -466,13 +471,13 @@ ul.in-line{
 
 .btn-only-border{
     padding: 10px 15px;
-    border: 1px solid orangered;
+    border: 1px solid rgb(254, 119, 90);
     border-radius: 8px;
 }
 
 .btn-complete{
     padding: 10px 15px;
-    background-color: orangered;
+    background-color: rgb(254, 119, 90);
     border-radius: 8px;
 }
 
@@ -495,7 +500,7 @@ ul.in-line{
 }
 
 .bg-greenish{
-    background-color: rgb(17, 145, 139);
+    background-color: rgb(0, 183, 172);
 }
 
 .margin-calc{
