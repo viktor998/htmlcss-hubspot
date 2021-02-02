@@ -87,6 +87,7 @@ ul.btn a{
     display: inline-block;
 }
 
+
 .drop-btn{
     position: relative;
 }
@@ -94,24 +95,16 @@ ul.btn a{
 
 .drop-menu.bg-white{
     border-radius: 0;
+
 }
+
+
 
 .drop-menu {
     display: none;
-    min-width: 800px;
     position: absolute;
     left: -300px;
     z-index: 1;
-}
-
-.drop-menu a{
-    display: block;
-    padding: 10px;
-}
-
-.drop-menu a:hover{
-    background-color:rgb(76, 188, 207 ) ;
-
 }
 
 
@@ -121,7 +114,7 @@ ul.btn a{
 
 .bg-grey{
     background-color: rgba(231, 229, 229, 0.747);
-    height: 232px;
+    height: 450px;
 }
 
 .bg-grey a:hover{
@@ -129,19 +122,92 @@ ul.btn a{
     text-decoration: underline;
 }
 
-.bg-grey a{
-    width: 70%;
-    text-align: center;
+.bg-grey .link-mini{
+    width: 60%;
+    padding-left: 10px;
+
 }
 
-.bg-grey a:after{
+.link-mini a:after{
     content: ' \2192';
 }
 
 .bg-grey h3{
     font-weight: lighter;
-    margin-left: 30px ;
+    margin-left: 10px ;
 }
+
+.box-dropped {
+
+    display: inline-block;
+    padding: 10px;
+    width: 260px;
+}
+
+
+
+.drop-menu .box-dropped:hover{
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+
+}
+
+.icon img{
+    height: 20px;
+
+}
+
+.icon{
+    position: relative;
+    top: 20px;
+}
+
+.icon-txt a, .icon-txt p{
+    padding-left: 40px;
+}
+
+.resources{
+    width: 700px;
+    height: 340px;
+}
+
+.resources p, .resources ul{
+    margin-left: 35px;
+}
+
+.res .icon{
+    position: relative;
+    top: 37px;
+    padding-left: 3px;
+}
+
+.res li a{
+    font-size: 14px;
+}
+
+
+.res li a:hover{
+    text-decoration: underline;
+}
+
+.drop-menu.bg-white.about{
+    min-width: 200px;
+    position: absolute;
+    left: 0;
+}
+
+.drop-menu.bg-white.about a{
+    display: block;
+    padding: 15px;
+
+}
+
+.drop-menu.bg-white.about a:hover{
+    text-decoration: underline;
+}
+
+
 
 
 /* FIRST-NAV */
@@ -477,6 +543,114 @@ ul.in-line{
     color: white;
 }
 
+.chatbot i{
+    color: white;
+    position: relative;
+    font-size: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,50%);
+}
+
+.chatbot{
+    position: fixed;
+    bottom: 40px;
+    right: 80px;
+    z-index: 1;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(50, 73, 91) ;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.671);
+}
+
+.chat{
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    position: relative;
+    bottom: 267px ;
+    right: 100px;
+    transform: translate(-50%,-50%);
+    display: none;
+}
+
+.chatbot-icon-hover:hover .chat{
+    display: block;
+}
+
+.header-blue{
+    height: 80px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+    background-color: rgb(50, 73, 91) ;
+}
+
+.header-blue img, .sms-area img{
+    cursor: pointer;
+    height: 40px;
+    margin: 20px 20px;
+
+}
+
+.header-blue .online{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    font-size: 50px;
+    background-color: green;
+    position: relative;
+    bottom: 35px;
+    left: 50px;
+}
+
+.sms-area{
+    height: 300px;
+}
+
+.sms{
+    width: 60%;
+    background-color: lightgrey;
+    border-radius: 10px;
+    position: relative;
+    bottom: 40px;
+    left: 60px;
+}
+
+.sms p{
+    font-size: 12px;
+    padding: 10px;
+}
+
+.input-area{
+    padding-left: 10px;
+}
+
+.input-area input{
+    height: 40px;
+    width: 230px;
+    background-color: lightgrey;
+    border: transparent;
+    padding-left: 15px;
+}
+
+.input-area i{
+    color: grey;    
+    position: relative;
+
+    bottom: 20px;
+    left: 260px;
+    transform: translate(-50%,-50%);
+    padding: 1px;
+    font-size: 20px;
+    line-height: 40px;
+ 
+}
+
+
+
+
 /* FOOTER */
 
 
@@ -517,7 +691,9 @@ ul.in-line{
     margin-right: 1em;
 }
 
-.bold
+.bold{
+    font-weight: bold;
+}
 
 .btn.btn-only-border a{
     color: rgb(254, 119, 90);
@@ -593,3 +769,26 @@ ul.in-line{
 }
 
 /* UTILITY */
+
+/* MEDIA QUERY */
+
+@media only screen and (min-width: 1900px) {
+    .jumbo-txt{
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .cube-img{
+        padding-top: 50px;
+    }
+
+    .loghi-col-one-img img{
+        margin-left: 80px;
+    }
+
+    .loghi-col-two-img img{
+        margin-left: 80px;
+    }
+  }
+
+/* MEDIA QUERY */
